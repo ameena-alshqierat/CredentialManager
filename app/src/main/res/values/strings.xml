@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Credential manager demo</string>
+
+    <string name="asset_statements">
+      [{
+        "relation": ["delegate_permission/common.handle_all_urls",
+        "delegate_permission/common.get_login_creds"],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.example.credentialmanagerdemo",
+        "sha256_cert_fingerprints":
+        ["45:F0:7F:A1:09:3F:C7:4D:78:47:9A:5E:6F:8E:E4:6B:F0:D4:0D:F5:5F:2D:F2:7D:B6:A4:02:2B:39:C6:B6:CD"]
+  }
+}]
+    </string>
+
+</resources>
